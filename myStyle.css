@@ -1,0 +1,264 @@
+/*colorList
+    Very Dary Blue(<h1> color): #333377
+    Dark Blue (header BG color): #0e51b7
+    Medium Blue (nav BG color): #5f8acc
+    Light Blue (nav hover blue): #acc7f4
+    Form Background color(cream): #fff9ec
+    border line color(gray): #abadb3
+*/
+body{
+    margin:0px; padding:0px;
+    font-family: Arial, Helvetica, sans-serif; font-size: 1em;
+}
+div{
+    margin:0;
+}
+div#header {
+    height:50px;
+    text-align:center;
+    margin:0;
+    background-color: #eeeeee;
+}
+div#header h2 {
+    margin:auto; margin-top: 0;padding-top:10px;
+    text-align:center;
+    width:24em;
+}
+div#leftcolumn {
+    position:absolute; left:0px; top:50px; width:100px;
+    margin:0; padding:4px; 
+}
+div#content {
+    margin:0px 100px 0 100px;
+    padding: 1em;
+}
+div#rightcolumn {
+    position:absolute; width:100px; top:50px; right:0px;
+    margin:0; padding:4px;
+}
+div.clear{
+    clear:both;
+}
+div.container{
+    margin:0 10px 0 10px;
+}
+div#footer{
+    background-color: #eeeeee;
+    margin:0; padding:0;
+}
+h1  {
+    color:#333377; font-size: 1.6em;
+    margin: .5em 0 .5em 0;
+}
+h2  {
+    color:#333377; font-size: 1.4em;
+    margin: .5em 0 .5em 0;
+}
+h3  {color:#333377; font-size: 1.2em;
+     margin: 1em; width:34em;
+}
+p   {
+    margin:0;
+}
+ul{
+    margin:0 0 0 1em;
+}
+li{
+    margin:0;
+    list-style-image: url(/images/bullet.gif);
+    font-size:.8em;
+}
+h3.gradded
+{
+    color:#9e9ee5;
+    background-image:url(/images/done.gif); background-repeat:no-repeat; background-position: left;
+    padding-left:20px;
+    cursor:pointer;
+}
+h3.gradded:hover
+{
+    background-image:url(/images/done.gif);
+    text-decoration:underline;
+    cursor:pointer;
+}
+h3.inProgressDontGrade
+{
+    color:#e3c279;
+    background-image:url(/images/inProgressDontGrade.gif); background-repeat:no-repeat; background-position: left;
+    padding-left:20px;
+    cursor:pointer;
+}
+h3.inProgressDontGrade:hover
+{
+    background-image:url(/images/inProgressDontGrade.gif);
+    text-decoration:underline;
+    cursor:pointer;
+}
+h3.toBeGradded
+{
+    color:#0000ee;
+    background-image:url(/images/toGrade.gif); background-repeat:no-repeat; background-position: left;
+    padding-left:20px;
+    cursor:pointer;
+}
+h3.toBeGradded:hover
+{
+    background-image:url(/images/toGrade.gif);
+    text-decoration:underline;
+    cursor:pointer;
+}
+div.header{
+    height:40px; padding:10px;
+    background-color:#0e51b7;
+    color:#ffffff; font-weight: bold;font-family: Arial, Helvetica, sans-serif; font-size:30px;
+    white-space:nowrap;
+}
+div.footer{
+    margin:10px 0 0 0;
+    padding:4px;
+}
+div.mainNav {
+    background-color:#5f8acc;
+    width:100%; height:30px;
+    padding:0px; margin: 0px; 
+    border-style:solid; border-width: 0px; border-top-color:#0e51b7; border-top-width:6px;
+    border-bottom-color:#acc7f4;  border-bottom-width:10px;
+}
+div.mainNav ul {
+    width:800px; white-space:nowrap;
+    list-style-image:none;vertical-align: middle;
+    display: block; height:30px;  float: left;
+    margin:auto; padding:0px;
+}
+div.mainNav li {
+    width:126px; height:30px;
+    text-align: center;
+    display: block;
+    border-left:2px solid #0e51b7;
+    padding:0; margin:auto;
+    color:#ffffff; font-weight: bold; font-size:18px; text-decoration:none; 
+    float: left; white-space:nowrap;
+}
+div.mainNav li.first {
+    border-left:0;
+    padding-left:0;
+    width:130px; height:30px;
+}
+
+div.mainNav a, div.mainNav a:visited{
+    display:block; height:25px;
+    color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; text-decoration:none;
+    white-space:nowrap;
+    padding:0; padding-top:5px;
+    background-color:#5f8acc;
+}
+a.NavCurrent		{
+    background-color:#5f8acc;
+    display:block; height:25px;
+    color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; text-decoration:none;
+    white-space:nowrap;
+    padding:0; padding-top:5px;
+}
+div.mainNav a:hover, div.mainNav a:hover {
+    background-color:#acc7f4;
+    color: #0e51b7;
+}
+table {
+    color: #000000; font-size: small;
+    margin: 0; margin-bottom: 2ex;
+    border-collapse:collapse;
+}
+th {
+    color:#ffffff; font-weight: bold;
+    background:#0e51b7;
+    margin:0px; padding: 0.5em 1ex;
+    border: 1pt solid #5f8acc;
+}
+td {
+    background: #eeeeee;
+    margin:0px; padding: 0.5em 1ex;
+    border: 1pt solid #acc7f4;
+}
+table.timesheet, table.timetable {
+    width:1000px;
+    margin:0px; padding:0px;
+    table-layout:fixed;
+}
+table.timetable{
+    color:#777777; font-size: small;
+    margin:0px; margin-right: auto;
+    border: none;
+}
+table.timetable td {
+    background: #ffffff;
+    border: none;
+}
+table.tasktable {
+    width:335px;
+}
+table.projectTable{
+    width:700px;
+}
+.td1{
+    width:180px;
+}
+.td2, .td4{
+    width:40px;
+}
+.td3{
+    width:75px;
+}
+.td8{
+    width:60px;
+}
+.td5, .td6{
+    width:230px;
+}
+.td7{
+    width:105px;
+}
+table.formTable, table.formTable td {
+    border:none;background-color: #fff9ec;
+    padding:4px;
+}
+img{
+    margin:0px;padding:0px;
+}
+img.imgbutton
+{
+    cursor:default;
+}
+img.imgbutton:hover
+{
+    cursor:pointer;
+}
+a{
+    color:#0066cc;
+}
+a:hover{
+    color:#7ebeda;
+}
+a:visited{
+    color:#a26fa5;
+}
+div.clock{
+    float:right; margin-right:10px; white-space: nowrap;
+    padding:0px; padding-top: 46px;
+    border:none;
+    font-family: Calibri, Arial, san-serif; font-weight:bold; font-size:14px; text-align:right; color:#acc7f4;
+}
+div.formbox{
+    background-color: #fff9ec;
+    border: solid 1px; border-color: #abadb3;
+    width:280px; height:140px;
+    padding:8px; margin:10px; margin-left: 0px;
+}
+/*Expandit settings*/
+div.assignmentList {
+   /* display:none; */
+    width:34em; height:1px;
+    overflow:hidden;  
+    margin:0px; padding:0px;
+	visibility:hidden;
+}
+/*End Expandit settings*/

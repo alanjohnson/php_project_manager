@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<projects>
+  <project name="Power Cycle" client="AO Design" bid="600" pDue="n/a" pMade="n/a" status="In Progress" notes="Basic web design project">
+    <task name="Web Design" rate="50" status="In Progress" notes="n/a">
+      <interval>2010/02/14 07:45,2010/02/14 11:52</interval>
+      <interval>2010/02/14 13:10,2010/02/14 17:35</interval>
+    </task>
+    <task name="Logo Design" rate="50" status="In Progress" notes="n/a"/>
+  </project>
+  <project name="ATX Autoglass" client="FIFO Studios" bid="400" pDue="n/a" pMade="n/a" status="In Progress" notes="Navigation Design">
+    <task name="Web Design" rate="50" status="In Progress" notes="n/a"/>
+  </project>
+  <project name="G&amp;amp;R Electric" client="AO Design" bid="1200" pDue="n/a" pMade="n/a" status="In Progress" notes="Full multi-page site design"/>
+  <project name="KSS" client="FIFO Studios" bid="noBid" pDue="n/a" pMade="n/a" status="In Progress" notes="these are notes"/>
+</projects>
